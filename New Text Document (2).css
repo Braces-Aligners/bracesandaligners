@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f0fff0;
+  color: #333;
+}
+
+header {
+  background: #48c774;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background: #3cb371;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+section {
+  padding: 40px 0;
+}
+
+section.light {
+  background: #e9ffe9;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #48c774;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer {
+  background: #2e8b57;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Popup */
+.popup {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #fffae6;
+  border: 2px solid #48c774;
+  padding: 15px;
+  border-radius: 10px;
+  z-index: 1000;
+}
+.popup button {
+  margin-top: 10px;
+  background: #48c774;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
